@@ -132,6 +132,8 @@ GTNormalTableViewCell.m
 @property(nonatomic, strong, readwrite) UILabel *commentLabel;
 @property(nonatomic, strong, readwrite) UILabel *timeLabel;
 
+@property(nonatomic, strong, readwrite) UIImageView *rightImageView;
+
 @end
 
 @implementation GTNormalTableViewCell
@@ -163,6 +165,11 @@ GTNormalTableViewCell.m
         self.timeLabel.textColor = [UIColor grayColor];
         [self.contentView addSubview:_timeLabel];
         
+        self.rightImageView = [[UIImageView alloc] initWithFrame:CGRectMake(300, 15, 70, 70)];
+        self.rightImageView.backgroundColor = [UIColor redColor];
+        self.rightImageView.contentMode = UIViewContentModeScaleAspectFit;
+        [self.contentView addSubview:_rightImageView];
+        
     }
     return self;
 }
@@ -180,6 +187,8 @@ GTNormalTableViewCell.m
     self.timeLabel.text = @"三分钟前";
     [self.timeLabel sizeToFit];
     self.timeLabel.frame = CGRectMake(self.commentLabel.frame.origin.x + self.commentLabel.frame.size.width + 15, self.timeLabel.frame.origin.y, self.timeLabel.frame.size.width, self.timeLabel.frame.size.height);
+    
+    self.rightImageView.image = [UIImage imageNamed:@"icon.bundle/icon.png"];
 }
 
 @end
@@ -251,4 +260,4 @@ ViewController.m
 
 ## 效果
 
-<img src="https://gitee.com/molushu/blog-gallery-1/raw/master/img/20210615151910.png">
+<img src="https://gitee.com/molushu/blog-gallery-1/raw/master/img/20210615170506.png">
