@@ -1,24 +1,20 @@
 ---
 
-title: WKWebView
-date: 2021-06-16 17:04:44
+title: KVO
+date: 2021-06-16 20:24:44
 categories: 
 - OC开发
 ---
 
 ## 1、基本配置展示
 
-<img src="https://gitee.com/molushu/blog-gallery-1/raw/master/img/20210616180128.png">
+<img src="https://gitee.com/molushu/blog-gallery-1/raw/master/img/20210616214946.png">
 
 
 
-<img src="https://gitee.com/molushu/blog-gallery-1/raw/master/img/20210616180609.png">
+<img src="https://gitee.com/molushu/blog-gallery-1/raw/master/img/46F2B484-24F3-4545-9EFA-66FD8722642B.png">
 
-<img src="https://gitee.com/molushu/blog-gallery-1/raw/master/img/20210616180922.png">
-
-<img src="https://gitee.com/molushu/blog-gallery-1/raw/master/img/2480E7FF-6C91-4689-A714-204B4451C4C8.png">
-
-<img src="https://gitee.com/molushu/blog-gallery-1/raw/master/img/66188906-D513-4E45-B49F-D1EB0362DAD5.png">
+<img src="https://gitee.com/molushu/blog-gallery-1/raw/master/img/20210616215723.png">
 
 
 
